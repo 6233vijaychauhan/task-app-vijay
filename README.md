@@ -89,7 +89,9 @@ To start the development server:
 php artisan serve
 ```
 
-The application will be available at `http://localhost:8000`
+The application will be available at `http://127.0.0.1:8000/tasks`
+
+And The application API will be available at `http://127.0.0.1:8000/api/tasks`
 
 For a complete development environment with all services:
 ```bash
