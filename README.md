@@ -52,10 +52,6 @@ A Laravel-based task management application with Vue.js frontend and API endpoin
 
 7. **Build frontend assets**
    ```bash
-   npm run build
-   ```
-   Or for development with hot reload:
-   ```bash
    npm run dev
    ```
 
