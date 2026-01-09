@@ -50,11 +50,6 @@ A Laravel-based task management application with Vue.js frontend and API endpoin
    npm install
    ```
 
-7. **Build frontend assets**
-   ```bash
-   npm run dev
-   ```
-
 ## Running Migrations & Seeders
 
 ### Run Migrations
@@ -183,12 +178,6 @@ Soft deletes the task.
   "message": "Task deleted"
 }
 ```
-## Task Status Values
-
-Tasks can have the following status values:
-- `pending`: Task has been created but not started
-- `in_progress`: Task is currently being worked on
-- `completed`: Task has been finished
 
 ## Database Schema
 
@@ -205,8 +194,8 @@ Tasks can have the following status values:
 ## Technologies Used
 
 - **Backend:** Laravel 12, PHP 8.2+
-- **Frontend:** Vue.js 3, Vite, Tailwind CSS
-- **Database:** MySQL (or compatible)
+- **Frontend:** Vue.js 3, Vite
+- **Database:** MySQL
 - **API Authentication:** Laravel Sanctum
 - **Testing:** PHPUnit
 - **Development Tools:** Composer, npm
